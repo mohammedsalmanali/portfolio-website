@@ -1,0 +1,39 @@
+.header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo h1 {
+    font-size: 36px;
+  }
+  
+  .logo p {
+    font-size: 20px;
+  }
+  
+  .header-navigation {
+    display: flex;
+  }
+  
+  .header-navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .header-navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
