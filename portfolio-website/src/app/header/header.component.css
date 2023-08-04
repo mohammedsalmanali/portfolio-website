@@ -1,8 +1,15 @@
 .header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px 0;
+    background-color: rgb(26, 36, 33);
+    color: rgb( 57, 255, 20);
+    padding: 0;
     text-align: center;
+  }
+
+  img {
+    padding:30px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
   }
   
   .header-content {
@@ -23,10 +30,13 @@
   
   .header-navigation {
     display: flex;
+    position: absolute;
+    top: 18px;
+    right: 28px;
   }
   
   .header-navigation a {
-    color: #fff;
+    color: rgb( 57, 255, 20);
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
